@@ -9,7 +9,7 @@
   "d1_databases": [
     {
       "binding": "DB", // Tên biến để truy cập trong code Worker (env.DB)
-      "database_name": "fc9bac2b-b9c1-45be-bc09-2a04b7df97a3",
+      "database_name": "database_test",
       "database_id": "fc9bac2b-b9c1-45be-bc09-2a04b7df97a3" // Thay bằng database_id của bạn
     }
   ]
