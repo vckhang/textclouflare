@@ -1,16 +1,12 @@
 {
-  "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "textcloudflare",
-  "main": "src/App.jsx", // Hoặc src/index.js tùy file backend worker của bạn
+  "name": "textclouflare",
   "compatibility_date": "2026-10-06",
-  "assets": {
-    "directory": "./dist"
-  },
+  "pages_build_output_dir": "./dist",
   "d1_databases": [
     {
-      "binding": "DB", // Tên biến để truy cập trong code Worker (env.DB)
+      "binding": "DB",
       "database_name": "database_test",
-      "database_id": "fc9bac2b-b9c1-45be-bc09-2a04b7df97a3" // Thay bằng database_id của bạn
+      "database_id": "fc9bac2b-b9c1-45be-bc09-2a04b7df97a3"
     }
   ]
 }
