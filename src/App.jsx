@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 // Đổi URL này thành URL Worker/Pages của bạn nếu ReactJS chạy ở domain khác
 // Nếu ReactJS và Worker cùng chung 1 Cloudflare Pages thì để '/api/posts'
-const API_URL = '/api/posts';
+const API_URL = 'https://textclouflare.vckhang-it-f05.workers.dev/api/posts';
 
 function App() {
   const [posts, setPosts] = useState([]);
