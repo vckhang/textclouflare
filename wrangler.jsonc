@@ -1,7 +1,10 @@
 {
   "name": "textclouflare",
+  "main": "src/worker.js",
   "compatibility_date": "2026-10-06",
-  "pages_build_output_dir": "./dist",
+  "assets": {
+    "directory": "./dist"
+  },
   "d1_databases": [
     {
       "binding": "DB",
